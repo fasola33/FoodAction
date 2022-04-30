@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+
+img {
+    width: 300px;
+    border: black solid 1px;
+
+}
+
+.image {
+    background-image: linear-gradient(#50B285, #2D6A4F);
+    width: 750px;
+    height: 700px;
+    border: black solid 1px;
+}
+
+.welcome {
+    color: white;
+    border: black solid 1px;
+}
