@@ -3,34 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<h2>, initial-scale=1.0">
-    <title>Faça seu Cadastro!</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Crie sua conta!</title>
 </head>
 <body>
-    <div class="image">
 
-        <div class="welcome">
-            <h2>
-                Bem-vindo ao
-            </h2>
+    <!-- Register -->
+    <div class="register">
+
+        <!-- Welcome gradient background -->
+        <div class="gradient-background">
+
+            <!-- Welcome components -->
+            <div class="welcome-components">
+
+                <!-- Welcome Text -->
+                <div class="welcome-text">
+                    <h2>Bem-vindo<br>ao</h2>
+                </div>
+
+                <!-- Logo -->
+                <div class="logo-register">
+                    <img src="assets/Logo.png" alt="FoodAction">
+                </div>
+
+                <!-- End welcome components -->
+            </div>
+            <!-- End welcome gradient background -->
         </div>
 
-        <img src="./assets/Logo.png" alt="Logo Food Action">
+        <!-- Create accout white background -->
+        <div class="white-background">
+            <!-- Close button -->
+            <div class="button-space">
+                <div class="close-button">
+                    <a href=""><img src="assets/close_button.png" id="close-btn" alt="Close page"></a>
+                </div>
+            </div>
+            <!-- Create account text -->
+            <div class="account-text">
+                <h3>Crie sua Conta</h3>
+            </div>
+            <!-- Form -->
+            <div class="account-form"></div>
+            <!-- Register button -->
+            <div class="register-button">
+                <a href=""><h3>Cadastre-se</h3></a>
+            </div>
+        </div>
+
+    <!-- End register -->
     </div>
-    <div class="form">
-        <form>
-            <input type="text" name="name_input" id="name_input" placeholder="Nome">
-            <input type="text" name="lastName_input" id="lastName_input" placeholder="Sobrenome">
-            <input type="email" name="email_input" id="email_input" placeholder="E-mail">
-            <input type="tel" name="phone_input" id="phone_input" placeholder="Telefone 1">
-            <input type="tel" name="phone_input" id="phone_input" placeholder="Telefone 2">
-            <input type="password" name="password_input" id="password_input" placeholder="Senha">
-            <input type="password" name="password_input" id="password_input" placeholder="Confirme sua senha">
-        </form>
-    </div>
-    <div class="register-button">
-        <button>Cadastro-se</button>
-    </div>
+    
 </body>
 </html>
