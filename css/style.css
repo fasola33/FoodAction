@@ -17,10 +17,17 @@ body {
     display: flex;
 }
 
-/* Register Page */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ----------------------
+        Register Page 
+-------------------------*/
 
 .left-side {
-    border: rgb(37, 193, 2) solid 2px;
     background-image: linear-gradient(180deg, #50B285, #2D6A4F);
     width: 35%;
     height: 90%;
@@ -28,7 +35,6 @@ body {
 }
 
 .welcome-components {
-    border: rgb(0, 137, 155) solid 2px;
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -36,7 +42,6 @@ body {
 }
 
 .welcome-text {
-    border: rgb(160, 0, 182) solid 2px;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -48,13 +53,7 @@ body {
     font-size: 24px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 .logo-register {
-    border: rgb(205, 7, 7) solid 2px;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -63,21 +62,18 @@ img {
 }
 
 .right-side {
-    border: rgb(216, 236, 2) solid 2px;
     width: 50%;
     height: 90%;
     margin: 40px 30px 30px 0px;
 }
 
 .close-button {
-    border: rgb(0, 189, 104) solid 2px;
     display: flex;
     flex-direction: row-reverse;
     margin: 15px 15px 0px 0px;
 }
 
 .account-text {
-    border: rgb(0, 19, 189) solid 2px;
     display: flex;
     flex-direction: column;
     width: auto;
@@ -98,8 +94,48 @@ img {
     margin: 10px 0px 20px 0px;
 }
 
+/* Form */
+
+.form-name {
+    border: peru solid 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+#fname, #sname, 
+#email, 
+#fphone, #sphone, 
+#borned,
+#password, #confirm_password {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    margin: 15px 10px 15px 0px;
+    border: #DEDEDE solid 2px;
+    border-radius: 5px;
+    background-color: #DEDEDE;
+    font-size: 16px;
+}
+
+#fname, #sname, #fphone, #sphone, #borned {
+    width: 35%;
+}
+
+.form-email {
+    border: rgb(53, 219, 86) solid 2px;
+}
+#email, #password, #confirm_password {
+    width: 95%;
+}
+.form-phone {
+    border: rgb(106, 60, 215) solid 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Register Button */
+
 .register-button {
-    border: rgb(1, 250, 35) solid 2px;
     width: 100%;
     display: flex;
     flex-direction: row;
