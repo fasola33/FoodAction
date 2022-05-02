@@ -8,10 +8,7 @@
     <title>Crie sua conta!</title>
 </head>
 <body>
-
-    <!-- Register -->
-
-        <!-- Welcome gradient background -->
+        <!-- Left side background -->
         <div class="left-side">
 
             <!-- Welcome components -->
@@ -29,10 +26,10 @@
 
                 <!-- End welcome components -->
             </div>
-            <!-- End welcome gradient background -->
+            <!-- End left side background -->
         </div>
 
-        <!-- Create accout white background -->
+        <!-- Right side background -->
         <div class="right-side">
             <!-- Close button -->
                 <div class="close-button">
@@ -45,19 +42,39 @@
             <!-- Form -->
             <div class="account-form">
                 <form>
-                    <label for="fname">Nome</label>
-                    <input type="text" id="fname" name="fname">
-                    <label for="fname">Sobrenome</label>
-                    <input type="text" id="fname" name="fname">
+                    <div class="form-name">
+                        <label for="fname">Nome</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="sname">Sobrenome</label>
+                        <input type="text" id="sname" name="sname">
+                    </div>
+                    <div class="form-email">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-phone">
+                        <label for="fphone">Telefone 1</label>
+                        <input type="tel" id="fphone" name="fphone" placeholder="(00) 0 0000-0000">
+                        <label for="sphone">Telefone 2</label>
+                        <input type="tel" id="sphone" name="sphone" placeholder="(00) 0 0000-0000">
+                    </div>
+                    <div class="form-date">
+                        <label for="borned">Data de Nascimento</label>
+                        <input type="date" id="borned" name="borned">
+                    </div>
+                    <div class="form-password">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password">
+                        <label for="confirm_password">Confirme sua Senha</label>
+                        <input type="password" id="confirm_password" name="confirm_password">
+                    </div>
                 </form>
             </div>
             <!-- Register button -->
             <div class="register-button">
                 <button class="register-bnt">Cadastre-se</button>
             </div>
-        </div>
-
-    <!-- End register -->
-    
+            <!-- End right side background -->
+        </div>    
 </body>
 </html>
